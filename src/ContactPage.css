@@ -163,21 +163,28 @@
 }
 
 .social-circle {
-  width: 34px;
-  height: 34px;
-  border-radius: 999px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
   border: 1px solid var(--border);
   background-color: #ffffff;
-  font-size: 0.8rem;
-  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.social-circle img {
+  width: 18px;
+  height: 18px;
 }
 
 .social-circle:hover {
   background-color: var(--ghost);
+  transform: translateY(-2px);
 }
+
 
 /* RIGHT SIDE – form */
 

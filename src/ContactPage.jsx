@@ -1,5 +1,9 @@
 import "./ContactPage.css";
 import gdgLogo from "./assets/logo.svg";
+import iconX from "./assets/X_logo.svg";
+import iconInstagram from "./assets/Instagram_logo.svg";
+import iconYouTube from "./assets/YouTube_logo.svg";
+import iconLinkedIn from "./assets/LinkedIn_logo.svg";
 
 export default function ContactPage() {
   return (
@@ -62,46 +66,62 @@ export default function ContactPage() {
 
             {/* Social icons row */}
             <div className="contact-social-row">
-              <button className="social-circle">X</button>
-              <button className="social-circle">IG</button>
-              <button className="social-circle">YT</button>
-              <button className="social-circle">in</button>
+                <a href="#" className="social-circle">
+                    <img src={iconX} alt="X / Twitter" />
+                </a>
+
+                <a href="#" className="social-circle">
+                    <img src={iconInstagram} alt="Instagram" />
+                </a>
+
+                <a href="#" className="social-circle">
+                    <img src={iconYouTube} alt="YouTube" />
+                </a>
+
+                <a href="#" className="social-circle">
+                    <img src={iconLinkedIn} alt="LinkedIn" />
+                </a>
             </div>
+
           </section>
 
           {/* RIGHT SIDE – form */}
           <section className="contact-right">
             <form
-              className="contact-form"
-              onSubmit={(e) => {
-                e.preventDefault();
-                alert("This Contact form is a demo for the workshop");
-              }}
+                className="contact-form"
+                onSubmit={(e) => {
+                    e.preventDefault();
+                    alert("This Contact form is a demo for the workshop");
+                }}
             >
-              <label className="contact-label">
-                <span>Name</span>
-                <input type="text" placeholder="Value" />
-              </label>
+                <label className="contact-label">
+                    <span>Your name</span>
+                    <input type="text" placeholder="e.g. Ana Novak" />
+                </label>
 
-              <label className="contact-label">
-                <span>Surname</span>
-                <input type="text" placeholder="Value" />
-              </label>
+                <label className="contact-label">
+                    <span>Your surname</span>
+                    <input type="text" placeholder="e.g. Kovač" />
+                </label>
 
-              <label className="contact-label">
-                <span>Email</span>
-                <input type="email" placeholder="Value" />
-              </label>
+                <label className="contact-label">
+                    <span>Email address</span>
+                    <input type="email" placeholder="you@upr.si" />
+                </label>
 
-              <label className="contact-label">
-                <span>Message</span>
-                <textarea rows="4" placeholder="Value" />
-              </label>
+                <label className="contact-label">
+                    <span>Your message</span>
+                    <textarea
+                        rows="4"
+                        placeholder="Tell us about your idea, question, or collaboration…"
+                    />
+                </label>
 
-              <button type="submit" className="contact-submit">
-                Submit
-              </button>
+                <button type="submit" className="contact-submit">
+                    Submit
+                </button>
             </form>
+
           </section>
         </div>
         
