@@ -56,10 +56,10 @@ You can implement any or all of the following sections. Creativity is encouraged
 * The **tech stack will be chosen during the workshop**.
 * Students are free to use any web technology:
 
-  * HTML / CSS / JavaScript
-  * React / Next.js
-  * Vue / Svelte / Astro
-  * Any combination suitable for your feature
+    * HTML / CSS / JavaScript
+    * React / Next.js
+    * Vue / Svelte / Astro
+    * Any combination suitable for your feature
 * Keep **structure clean**, **code readable**, and **document your work**.
 
 
@@ -80,9 +80,9 @@ Follow this workflow to keep contributions organized:
    ```
 4. Implement your changes:
 
-   * Add pages, components, or UI improvements.
-   * Follow the **color palette** and **fonts**.
-   * Keep code **readable** and **modular**.
+    * Add pages, components, or UI improvements.
+    * Follow the **color palette** and **fonts**.
+    * Keep code **readable** and **modular**.
 5. **Commit and push** your changes:
 
    ```bash
@@ -125,10 +125,10 @@ All contributors who submit **at least one merged Pull Request** will be added t
 * Certificates will be issued **after the workshop**.
 * Contributions may include:
 
-  * Pull Requests
-  * Features
-  * Design contributions
-  * Content creation (resources, images, etc.)
+    * Pull Requests
+    * Features
+    * Design contributions
+    * Content creation (resources, images, etc.)
 
 
 ## ❓ FAQ
