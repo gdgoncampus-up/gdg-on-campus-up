@@ -1,0 +1,116 @@
+/* NAVBAR */
+.navbar {
+  height: 70px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  background: white;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 22px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  font-size: 16px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 35px 0;
+}
+
+.join-btn {
+  background: #ffd700;
+  padding: 8px 18px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.hero-img {
+  width: 80%;
+  border-radius: 18px;
+}
+
+/* ABOUT */
+.about-section {
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* TEAM */
+.team-section {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.team-card {
+  text-align: center;
+}
+
+.team-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-card a {
+  color: #2d6cdf;
+  text-decoration: none;
+}
+
+/* PARTNERS */
+.partners-section {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.partner-logos {
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+.partner-logos img {
+  width: 180px;
+}
+
+/* FOOTER */
+.footer {
+  padding: 40px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #fafafa;
+}
+
+.copy {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
