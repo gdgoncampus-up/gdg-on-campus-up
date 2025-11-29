@@ -57,6 +57,11 @@ Follow this workflow so we keep the repo organized:
 3. Create a new branch for your feature: `git checkout -b feature/your-feature-name`
 4. Implement your changes
 5. **Commit** and **push** your changes
+```bash
+git add .
+git commit -m "Add: short description of feature"
+git push origin feature/your-feature-name
+```
 6. Open a **Merge Request / Pull Request** to the main repository
 7. After review and approval, your code will be merged into the final website 🎉
 
