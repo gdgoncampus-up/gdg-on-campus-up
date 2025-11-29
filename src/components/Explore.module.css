@@ -23,8 +23,15 @@
     border-radius: 30px;
     width: 170px;
     border: none;
+    color: white;
 
 }
 .text{
     color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    text-align: justify;
+    margin-bottom: 30px;
 }
